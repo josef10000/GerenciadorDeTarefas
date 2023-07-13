@@ -1,7 +1,7 @@
 
 # Projeto de Lista de Tarefas em Angular
 
-Este é um projeto simples, para treinar Angular,ele é uma lista de tarefas. Que permite ao usuário adicionar tarefas, marcar como concluídas e excluí-las da lista. O projeto utiliza o recurso de Local Storage do Angular para armazenar as tarefas adicionadas.
+Este é um projeto simples, para treinar Angular,ele é uma lista de tarefas, que permite ao usuário adicionar tarefas, marcar como concluídas e excluí-las da lista. O projeto utiliza o recurso de Local Storage do Angular para armazenar as tarefas adicionadas.
 
 # Funcionalidades
 
