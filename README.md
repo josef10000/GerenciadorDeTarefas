@@ -1,27 +1,15 @@
-# Tarefas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+# Projeto de Lista de Tarefas em Angular
 
-## Development server
+Este é um projeto simples, para treinar Angular,ele é uma lista de tarefas. Que permite ao usuário adicionar tarefas, marcar como concluídas e excluí-las da lista. O projeto utiliza o recurso de Local Storage do Angular para armazenar as tarefas adicionadas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Funcionalidades
 
-## Code scaffolding
+* Adicionar uma nova tarefa ao digitar o nome no campo de entrada e pressionar Enter ou clicar no botão "+".
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Marcar uma tarefa como concluída ao clicar sobre ela na lista.
+* Excluir uma tarefa ao clicar no ícone "delete" ao lado da tarefa.
+* As tarefas adicionadas são armazenadas no Local Storage do navegador, permitindo que as tarefas sejam mantidas mesmo após atualizações ou fechamento do * aplicativo.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![70](https://github.com/josef10000/Treinando_Angular-GerenciadorDeTarefas/assets/102549534/a887bd9d-5ed7-4b2f-81bc-c2409175a66e)
