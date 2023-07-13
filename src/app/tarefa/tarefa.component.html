@@ -1,9 +1,19 @@
-<div>
+<div class="imput_container">
     <h3>Lista de Tarefas</h3>
-    <input type="text" placeholder="Criar tarefa" #imputTarefa>
-    <button (click)="adicionar(imputTarefa.value)">Adicionar</button>
+    <input type="text" placeholder="Criar tarefa" #imputTarefa (keyup.enter)="adicionar(imputTarefa.value);imputTarefa.value=''">
+    <button (click)="adicionar(imputTarefa.value); imputTarefa.value=''"><i class="fa fa-plus"></i></button>
     <ul *ngFor="let tarefa of ListaTarefas">
-      <li>{{ tarefa.nome }}</li>
+      <li>
+        <div (click)="completar(tarefa.id)">
+        
+        {{ tarefa.nome }} <i *ngIf="tarefa.concluida" class="material-icons">done</i>
+
+      </div>
+      
+      
+      
+      </li>
+      <i (click)="deletar(tarefa.id)"class="material-icons">delete</i>
     </ul>
   </div>
   
