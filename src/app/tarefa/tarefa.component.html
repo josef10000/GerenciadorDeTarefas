@@ -1,15 +1,9 @@
 <div>
-         
-
-      <h3>Lista de Tarefas</h3>
-      <ul>
-             <li>Tarefa1</li>
-             <li>Tarefa1</li>
-             <li>Tarefa1</li>
-             <li>Tarefa1</li>
-
-
-      </ul>
-
-
-</div>
+    <h3>Lista de Tarefas</h3>
+    <input type="text" placeholder="Criar tarefa" #imputTarefa>
+    <button (click)="adicionar(imputTarefa.value)">Adicionar</button>
+    <ul *ngFor="let tarefa of ListaTarefas">
+      <li>{{ tarefa.nome }}</li>
+    </ul>
+  </div>
+  
